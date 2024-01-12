@@ -27,7 +27,13 @@ int main(int argc, char *argv[])
 	cout<<" Numero entero con signo: "<<numero_entero<<endl;
 	numero_entero_s = 4294967297;// <-- valor limite de datos -2147483648 a 2147483647
 	cout<<" Numero entero sin signo : "<<numero_entero_s<<endl;
-	//Asignacion 
+	//Aignacion entre variables 
+	numero_entero_p1=numero_entero_p; //los valores son correctos al asignar??. no es correcta!.
+	cout <<"Numero entero pequeño 1ra asignacion :" <<numero_entero_p1<<endl;
+	//rango de datos short int -32768 al 32767
+	numero_entero_p=32769//el valor esta fuera del rango de valores permitidos
+	numero_entero_p1=numero_entero_p;//
+	cout <<"Numero entero pequeño 2da asignacion:" <<numero_entero_p1<<endl;
 	
 	return 0;
 }
