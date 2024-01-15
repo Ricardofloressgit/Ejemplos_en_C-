@@ -1,0 +1,31 @@
+/*
+Titulo :USO DE BOOL
+Autor : Ricardo Flores Soruco
+Descripcion: EJEMPLOS DEL USO DE BOOL.
+Fecha: 2024-01-12
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+	//declaracion y uso de bool
+	bool b0;
+	b0 = true;
+	cout<<"Variable con valor true : "<<b0<<endl;
+	b0 = false;
+	cout<<"Variable con valor false : "<<b0<<endl;
+	//Asignacion de valores numericos.
+	// si es cero es falso si es diferente de cero es VERDADERO
+	b0=0 ; //El valor se vera con false
+	cout<<"Variable con valor 0 : "<<b0<<endl;
+	b0= 1 ; //El valor se vera con true
+	cout<<"Variable con valor 1 : "<<b0<<endl;
+	b0= -100 ; // El valor se vera como true
+	cout<<"Variable con valor -100 : "<<b0<<endl;
+	
+	return 0;
+}
+

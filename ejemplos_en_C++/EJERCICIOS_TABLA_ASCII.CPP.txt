@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) 
+	//Definicion y asignacion de valores char 
+{
+	char letra ;
+	char vocal_may,vocal_min;
+	char ARROBA,INCLI ;
+	
+	/*
+	letra = 'L';
+	cout<<"imprimiendo la letra : "<<letra<<endl;
+	//letra = "ll"; Error por asignar mas de un caracter.
+	letra = 65; //ASCII es la letra A.
+	cout<<"imprimiendo la letra : "<<letra<<endl;
+	//IMPRIMIR LAS VOLACALES MAY Y MIN, @,\.*/
+	/*vocal_may= 181;// imprime la letra Á
+	vocal_min = 160 ; //imprime la vocal á
+	cout<<"imprimiendo la letra : "<<vocal_may<<endl;
+	cout<<"imprimiendo la letra : "<<vocal_min<<endl;
+	vocal_may= 144; // imprime la vocal É
+	vocal_min = 130 ;//imprime la  vocal é
+	cout<<"imprimiendo la letra : "<<vocal_may<<endl;
+	cout<<"imprimiendo la letra : "<<vocal_min<<endl;
+	vocal_may= 214; // imprime la vocal Í
+	vocal_min = 161 ;//imprime la vocal í
+	cout<<"imprimiendo la letra : "<<vocal_may<<endl;
+	cout<<"imprimiendo la letra : "<<vocal_min<<endl;
+	vocal_may= 224;//imprime la vocal Ó 
+	vocal_min = 162 ;//imprime la vocal ó
+	cout<<"imprimiendo la letra : "<<vocal_may<<endl;
+	cout<<"imprimiendo la letra : "<<vocal_min<<endl;
+	vocal_may=233;//imprime la vocal Ú
+	vocal_min=163 ;//imprime la vocal ú
+	cout<<"imprimiendo la letra : "<<vocal_may<<endl;
+	cout<<"imprimiendo la letra : "<<vocal_min<<endl;
+	ARROBA=64; // imprime el @
+	cout<<"imprimiendo el simbolo de la tabla ASCII : "<<ARROBA<<endl;
+	INCLI=92 ;// imprime la barra invertida
+	cout<<"imprimiendo el simbolo de la tabla ASCII: "<<INCLI<<endl;*/
+	//DECLARACION DE UNA CADENA DE CARACTERES
+	char nombre []="RICARDO";
+	//nombre= 'RICARDO'; Investigar porque el error_backref
+	cout<<"IMPRIMIENDO MI NOMBRE : "<<nombre<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [0] '\': "<<nombre[0]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [1] '\': "<<nombre[1]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [2] '\': "<<nombre[2]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [3] '\': "<<nombre[3]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [4] '\': "<<nombre[4]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [5] '\': "<<nombre[5]<<endl;
+	cout<<"IMPRIMIENDO NOMBRE [6] '\': "<<nombre[6]<<endl;
+	
+	
+	
+	return 0;
+}
+
